@@ -1,0 +1,35 @@
+section#product{
+    display: flex;
+    width: 120rem;
+    padding: 16.75rem 15.0625rem 16.0625rem 15rem;
+    justify-content: center;
+    align-items: center;
+
+     div.inner{
+        width: 89.9375rem;
+        height: 34.6875rem;
+        flex-shrink: 0;
+        
+          h2.title{
+            display: flex;
+            width: 35.125rem;
+            height: 3.125rem;
+            padding: 0rem 2.1875rem;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+          }
+          ul.productlist{
+            display: inline-flex;
+            align-items: flex-start;
+            gap: 2.8125rem;
+              li{
+                width: 20.375rem;
+                height: 26.5rem;
+                 a{
+                    img{}
+                 }
+              }
+          }
+     }
+}
